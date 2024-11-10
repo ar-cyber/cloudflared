@@ -1,3 +1,1 @@
-curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
-sudo dpkg -i cloudflared.deb
-sudo cloudflared service install eyJhIjoiMmYzODFmNzMwMDQ1YTMyNDYxNmMyMDgwMjRhMjdkZWQiLCJ0IjoiNGQyZTZlZDgtNmNhZS00ZGI3LTg5MTgtNzcwMTJlMTFiMjdmIiwicyI6Ik9HSXdOVEptWm1VdFlqbGhaUzAwWTJaaUxUazNZemt0WTJFMU0yTTBNemszTUdZNSJ9
+sudo wget -O disk.qcow2 https://objects.githubusercontent.com/github-production-release-asset-2e65be/115992009/c5fe9079-5eec-4c7b-8ddb-b0ae0dc068ad?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241110%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241110T051515Z&X-Amz-Expires=300&X-Amz-Signature=e248b89c46772a40dd93861c9c98cff4875bd767c0752e4ee9fa41eefef3d872&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dhaos_ova-13.2.qcow2.xz&response-content-type=application%2Foctet-stream
